@@ -5,8 +5,3 @@
 ### W04-P1: Use git pull to update README.md
 
 ![](./w04_58.png)
-
-### W04-P2: Deploy Github to Vercel
-
-![](./w04-p2-1.png)
-![](./w04-p2-2.png)
