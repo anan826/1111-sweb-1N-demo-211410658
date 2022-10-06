@@ -11,8 +11,8 @@
     --grey: #64748b;
     --grey-dark: #0f172a;
     --letter-spacing: 2px;
-    --fluid-width:160vw;
-    --max-width:1200px;
+    --fluid-width:90vw;
+    --max-width:1170px;
     --border-radius: 0.15rem;
  }
 body{
@@ -41,6 +41,16 @@ body{
 .blogs-center {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: var(--fluid-width);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    /*max-width: 1200px;*/
+}
+
+.blogs-center2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem,1fr));
     gap: 2rem;
     width: var(--fluid-width);
     max-width: var(--max-width);
