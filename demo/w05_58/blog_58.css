@@ -11,7 +11,7 @@
     --grey: #64748b;
     --grey-dark: #0f172a;
     --letter-spacing: 2px;
-    --fluid-width:90vw;
+    --fluid-width:160vw;
     --max-width:1200px;
     --border-radius: 0.15rem;
  }
@@ -40,12 +40,12 @@ body{
     }
 .blogs-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
     width: var(--fluid-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    /*max-width: 500px;*/
+    /*max-width: 1200px;*/
 }
 .blog {
     background-color: white;
