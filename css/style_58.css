@@ -195,6 +195,7 @@ Navbar
     padding: 1rem;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid var(--clr-grey-3);
 }
 
 .nav-center{
@@ -211,4 +212,9 @@ Navbar
     align-items: center;
     gap: 1.5rem;
 
+}
+
+.show-classdemo {
+    width: 100vw;
+    height: calc(100vh - 5rem);
 }
