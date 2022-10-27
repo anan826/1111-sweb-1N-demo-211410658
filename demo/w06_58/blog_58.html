@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html><!--告知瀏覽器此為html的檔案-->
+<html lang="en"><!--html是網站的最外層-->
+<head><!--表示網頁的資訊-->
+    <!--meta標籤    視口-->
+    <meta charset="UTF-8"><!--使用UTF-8的編碼-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Demo</title>
+                <!--視口-->         <!--視裝置等比例調整--> <!--初始縮放比為100%-->
+    <title>Blog Demo</title><!--網頁的標題-->
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
@@ -12,69 +14,65 @@
     referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./blog_58.css">
 </head>
-<body>
-    <section class="blogs">
-        
-        <div class="section-title">
-            <h2> Latest Blogs</h2>
+<body><!--網頁的內容-->
+    <section class="blogs"> <!--section標籤 頁面上獨立的元件--><!--歸類在blogs的物件-->
+        <div class="section-title"><!--容器標籤--> 
+            <h2> Latest Blogs</h2><!--標題-->
         </div>
-        <div class="blogs-center">
-            <article class="blog">
-            <img src="./images/photo-2.jpg" 
-            alt="sports car"
-            class="img blog-img"
-            />
-            <div class="blog-content">
-                <span>sports car <i class="fa-solid fa-car-side"></i></span>
-                <h3>Born To Race</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 <a href="#">read more</a>   
-                </p>
+        <div class="blogs-center"><!--容器標籤--><!--歸類在blogs-center的物件-->
+            <article class="blog"><!--article本身可以當作單一的顯示內容 比方像是部落格的文章-->
+                <img src="./images/photo-2.jpg" alt="sports car"class="img blog-img"/><!--src連結--><!--alt純文字屬性--><!--class物件-->
+                <div class="blog-content"><!--容器標籤 物件blog-content-->
+                    <span>sports car <i class="fa-solid fa-car-side"></i></span><!--span容器標籤--><!--i class是icon圖示-->
+                    <h3>Born To Race</h3><!--標題-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <a href="#">read more</a>
+                    </p><!--p段落--><!--a連結-->
+                </div>
+            </article>
+            <article class="blog"><!--article本身可以當作單一的顯示內容 比方像是部落格的文章-->
+                <img src="./images/photo-1.jpg" 
+                alt="navy"
+                class="img blog-img"
+                /><!--img圖片--><!--alt純文字--><!--歸類於img blog-img的物件-->
+                <div class="blog-content"><!--容器標籤--><!--歸類於blog-content的物件-->
+                    <span>military <i class="fa-solid fa-person-rifle"></i></span><!--容器標籤--><!--icon-->
+                    <h3>Naval Officer</h3><!--標題-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <a href="#">read more</a>   
+                    </p><!--p段落--><!--a連結-->
+                </div>
+            </article>
+            <article class="blog"><!--article本身可以當作單一的顯示內容 比方像是部落格的文章--><!--歸類在物件blog-->
+                <img src="./images/photo-3.jpg" 
+                alt="sports car"
+                class="img blog-img"
+                /><!--img圖片--><!--alt純文字--><!--歸類於物件img blog-img-->
+                <div class="blog-content"><!--容器標籤--><!--歸類於blog-content的物件-->
+                    <span>sports car <i class="fa-solid fa-car-side"></i></span><!--容器標籤--><!--icon-->
+                    <h3>Born To Race</h3><!--標題-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <a href="#">read more</a>   
+                    </p><!--p段落--><!--a連結-->
             </div>
-        </article>
-        <article class="blog">
-            <img src="./images/photo-1.jpg" 
-            alt="navy"
-            class="img blog-img"
-            />
-            <div class="blog-content">
-                <span>military <i class="fa-solid fa-person-rifle"></i></span>
-                <h3>
-                    Naval Officer</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 <a href="#">read more</a>   
-                </p>
-            </div>
-        </article>
-        <article class="blog">
-            <img src="./images/photo-3.jpg" 
-            alt="sports car"
-            class="img blog-img"
-            />
-            <div class="blog-content">
-                <span>sports car <i class="fa-solid fa-car-side"></i></span>
-                <h3>Born To Race</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 <a href="#">read more</a>   
-                </p>
-            </div>
-        </article>
-        <article class="blog">
-            <img src="./images/photo-4.jpg" 
-            alt="sports car"
-            class="img blog-img"
-            />
-            <div class="blog-content">
-                <span>sports car <i class="fa-solid fa-car-side"></i></span>
-                <h3>Born To Race</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 <a href="#">read more</a>   
-                </p>
-            </div>
-        </article>
+            </article>
+            <article class="blog"><!--本身可以當作單一顯示的內容 比方像是部落格的文章--><!--歸類在物件blog-->
+                <img src="./images/photo-4.jpg" 
+                alt="sports car"
+                class="img blog-img"
+                /><!--img圖片--><!--alt純文字--><!--歸類於物件img blog-img-->
+                <div class="blog-content"><!--歸類於blog-content的物件-->
+                    <span>sports car <i class="fa-solid fa-car-side"></i></span><!--容器標籤--><!--icon-->
+                    <h3>Born To Race</h3><!--標題-->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <a href="#">read more</a>   
+                    </p><!--p段落--><!--a連結-->
+                </div>
+            </article>
         </div>
     </section>
-    <section class="blogs">
+
+    <section class="blogs"><!--歸類在物件blogs-->
         
         <div class="section-title">
             <h2>CSS Grid Using Minmax</h2>
@@ -205,5 +203,5 @@
 </body>
 
 </html>
-
+<!---->
 
