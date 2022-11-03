@@ -152,6 +152,7 @@ p {
   }
 }
 /*  global classes */
+
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -420,86 +421,186 @@ blogs
   color: var(--primary-dark);
   letter-spacing: 1px;
 }
+.tiles{
 
-/*
-========
-tiles
-========
-*/
-.tiles {
   padding: 4rem 0;
+
 }
 
-.tiles-center {
+.tiles-center{
+
   width: 90vw;
-  max-width: var(--max-width);  
+
+  max-width: var(--max-width);
+
   margin: 0 auto;
+
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: repeat(6,12.5rem);
-  gap: 1rem;
-  grid-template-areas: 
-  'a a b e '
-  'a a b e '
-  'd d d f '
-  'c c h i '
-  'g g h i '
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-template-rows: repeat(6, 13rem);
+
+  gap: 1rem ;
+
+  grid-template-areas:
+
+  "a a b b"
+
+  "a a b b"
+
+  "c c c e"
+
+  "f f f e"
+
+  "i i i d"
+
+  "g g h h"
 
   ;
+
 }
+
 .tiles-center img{
+
   display: block;
+
   width: 100%;
+
   height: 100%;
+
   object-fit: cover;
+
 }
-.tiles-1{
+
+.tile-1{
+
   grid-area: a;
+
 }
-.tiles-2{
+
+.tile-2{
+
   grid-area: b;
+
 }
-.tiles-3{
+
+.tile-3{
+
   grid-area: c;
+
 }
-.tiles-4{
+
+.tile-4{
+
   grid-area: d;
+
 }
-.tiles-5{
+
+.tile-5{
+
   grid-area: e;
+
 }
-.tiles-6{
+
+.tile-6{
+
   grid-area: f;
+
 }
-.tiles-7{
+
+.tile-7{
+
   grid-area: g;
+
 }
-.tiles-8{
+
+.tile-8{
+
   grid-area: h;
+
 }
-.tiles-9{
+
+.tile-9{
+
   grid-area: i;
+
 }
-
-/*
-==========
-resume
-==========
-*/
-
 .main-resume-section{
+
   min-height: 100vh;
+
   width: 80vw;
+
   margin: 2rem auto;
+
   display: grid;
+
   grid-template-columns: 30fr 70fr;
+
 }
 
 .resume-left{
-  background-color: #00324a;
-  height:100%;
-}
-.resume-right{
-  background-color: #ede4e4;
+
+  background-color: hsl(209, 34%, 30%);
+
   height: 100%;
+
+}
+
+.left-content{
+
+  padding: 2.5rem 3rem;
+
+}
+
+.profile img{
+
+  width: 100%;
+
+  border-radius: 50%;
+
+}
+
+.name{
+
+  font-size: 2rem;
+
+  color: white;
+
+  padding: 1.2rem 0;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+}
+
+.career{
+
+  font-size: 1.2rem;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: hsl(210, 90%, 80%);
+
+}
+
+.resume-right{
+
+  background-color: hsl(54, 76%, 90%);
+
+  height: 100%;
+
+}
+.about{
+  color:  hsl(209, 34%, 30%);
+  padding: 2rem;
+}
+.resume-right p {
+  color: #64748b;
+  font-size: 30px;
+  padding: 2rem;
 }
