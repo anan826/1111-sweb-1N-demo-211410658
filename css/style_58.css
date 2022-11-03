@@ -127,6 +127,143 @@ p {
     line-height: 1;
   }
 }
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: var(--grey-light);
+  color: var(--grey-dark);
+  font-size: 12px;
+}
+.img{
+  width: 100%;
+  height : 15rem;
+  display: block;
+  object-fit: cover;
+}
+.blogs{
+  padding: 5rem 0;
+
+}
+
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem;
+  letter-spacing: 2px;
+  }
+.blogs-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  /*max-width: 1200px;*/
+}
+
+.blogs-center2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem,1fr));
+  gap: 2rem;
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  /*max-width: 1200px;*/
+}
+.blog {
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+  transition: 0.5s ease-in-out all;
+}
+.blog:hover{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+.blog-img {
+  border-radius: var(--border-radius);
+  margin-bottom: 0.5rem;
+}
+
+.blog-content {
+  padding-bottom: 1rem;
+}
+
+.blog-content span {
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: var(--letter-spacing);
+  font-weight: 600;
+}
+.blog-content h3{
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+  margin: 0.5rem 0;
+}
+.blog-content p {
+  color: var(--grey);
+  margin-bottom: 0.5rem;
+  
+}
+.blog-content a {
+  text-transform: capitalize;
+  color: var(--primary-dark);
+  letter-spacing: 1px;
+}
+/*tile*/
+.tiles {
+  padding: 4rem 0;
+}
+
+.tiles-center {
+  width: 90vw;
+  max-width: var(--max-width);  
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,12.5rem);
+  gap: 1rem;
+  grid-template-areas: 
+  'a a a b'
+  'a a a c'
+  'd d d d'
+  'e f f f'
+  'e g h i'
+  ;
+}
+.tiles-center img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tiles-1{
+  grid-area: a;
+}
+.tiles-2{
+  grid-area: b;
+}
+.tiles-3{
+  grid-area: c;
+}
+.tiles-4{
+  grid-area: d;
+}
+.tiles-5{
+  grid-area: e;
+}
+.tiles-6{
+  grid-area: f;
+}
+.tiles-7{
+  grid-area: g;
+}
+.tiles-8{
+  grid-area: h;
+}
+.tiles-9{
+  grid-area: i;
+}
 /*  global classes */
 
 .btn {
