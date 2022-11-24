@@ -37,6 +37,28 @@ Navbar
     }
 }
 
+@media screen and (min-width:768px) {
+    .nav {
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            position: absolute;
+            right: 3rem;
+
+            li a {
+                color: var(--clr-grey-3);
+            }
+            li a:hover {
+                color: var(--clr-grey-5);
+            }
+        }
+        .nav-btn {
+            display: none;
+        }
+    }
+
+}
+
 /*
 ====================
 Sidebar

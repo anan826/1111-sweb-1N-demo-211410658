@@ -207,6 +207,23 @@ Navbar
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  .nav .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    position: absolute;
+    right: 3rem;
+  }
+  .nav .nav-links li a {
+    color: var(--clr-grey-3);
+  }
+  .nav .nav-links li a:hover {
+    color: var(--clr-grey-5);
+  }
+  .nav .nav-btn {
+    display: none;
+  }
+}
 /*
 ====================
 Sidebar
