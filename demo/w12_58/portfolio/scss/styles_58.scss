@@ -7,9 +7,9 @@ Navbar
 */
 
 .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /*flex 一維排列*/
+    justify-content: center; /*justify-content 對齊方式 橫向對齊*/
+    align-items: center; /*直向對齊*/
     height: 4rem;
     background-color: var(--clr-primary-10);
 
@@ -18,7 +18,7 @@ Navbar
         justify-content: space-between;
         align-items: center;
         width: 100%;
-        position: relative;
+        position: relative; /*相對定位 */
         margin: 0 auto;
     }
 
