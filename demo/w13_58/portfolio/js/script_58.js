@@ -7,6 +7,8 @@ const sidebar = document.querySelector('#sidebar');
 console.log('navBtn', navBtn);
 console.log('closeBtn', closeBtn);
 console.log('sidebar', sidebar);
+
+
 navBtn.addEventListener('click', function(){
   sidebar.classList.add('show-sidebar');
 })

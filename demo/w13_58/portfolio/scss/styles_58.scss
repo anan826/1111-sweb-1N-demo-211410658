@@ -156,6 +156,23 @@ Hero
         place-items: center;
     }
 
+    .underline {
+        margin-left:0;
+        margin-bottom: 0.5rem;
+    }
+    .hero-info h4 {
+        color: var(--clr-grey-5);
+    }
+
+    &-icons {
+        justify-content: start;
+        
+    }
+
+    &-btn {
+        margin-top: 1.25rem;
+    }
+
     &-img {
         display: none;
     }
