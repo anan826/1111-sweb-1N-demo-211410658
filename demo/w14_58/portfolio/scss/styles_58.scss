@@ -346,12 +346,14 @@ About
   */
   
 .projects {
-    
+    margin-bottom: 5rem;
     &-text {
         width: 80vw;
         margin: 0 auto;
     }
-
+    .t {
+        text-align: center;
+    }
     .underline {
         margin-bottom: 1.5rem;
     }
@@ -457,5 +459,71 @@ About
         }
 
         
+    }
+}
+
+/*
+==========
+Services
+==========
+*/
+.services {
+    background-color: var(--clr-grey-10);
+    padding: 2rem;
+    justify-content: center;
+}
+.service-title {
+    padding-top: 1rem;
+    text-align: center;
+}
+.services-center {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.service{
+    background:var(--clr-white);
+    padding: 3rem 2rem;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    margin: 3rem;
+    
+    &:hover {
+        background-color: var(--clr-primary-5);
+        color: var(--clr-white);
+
+        .service-card {
+            .underline {
+                background-color: var(--clr-white);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .services {
+        &-center {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            column-gap: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .services {
+        &-center {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 2rem;
+        }
     }
 }
