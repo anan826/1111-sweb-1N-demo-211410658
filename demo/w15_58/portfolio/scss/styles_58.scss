@@ -123,18 +123,19 @@ Sidebar
         }
     }
 
-    .social-icons{
-        padding: 2rem;
-        display:flex;
-        gap: 2rem;
-        font-size: 2rem;
-        letter-spacing: var(--spacing);
-        a {
-            color: var(--clr-grey-3);
-        }
-        a:hover {
-            color: var(--clr-grey-5);
-        }
+    
+}
+.social-icons{
+    padding: 2rem;
+    display:flex;
+    gap: 2rem;
+    font-size: 2rem;
+    letter-spacing: var(--spacing);
+    a {
+        color: var(--clr-grey-3);
+    }
+    a:hover {
+        color: var(--clr-grey-5);
     }
 }
 

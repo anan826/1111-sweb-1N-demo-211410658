@@ -313,17 +313,18 @@ Sidebar
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
 }
-.sidebar .social-icons {
+
+.social-icons {
   padding: 2rem;
   display: flex;
   gap: 2rem;
   font-size: 2rem;
   letter-spacing: var(--spacing);
 }
-.sidebar .social-icons a {
+.social-icons a {
   color: var(--clr-grey-3);
 }
-.sidebar .social-icons a:hover {
+.social-icons a:hover {
   color: var(--clr-grey-5);
 }
 
