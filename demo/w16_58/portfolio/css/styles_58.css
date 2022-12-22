@@ -903,5 +903,79 @@ Blogs
     grid-template-columns: repeat(4, 1fr);
   }
 }
+/*
+==================
+Footer
+==================
+*/
+.footer {
+  background-color: #222;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+}
+.footer i {
+  color: var(--clr-primary-5);
+}
+.footer i:hover {
+  color: var(--clr-primary-10);
+}
+.footer p {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: var(--clr-primary-10);
+}
+
+/*
+===========
+tiles
+===========
+*/
+.tiles {
+  padding: 4rem 0;
+}
+.tiles-center {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 13rem);
+  gap: 1rem;
+  grid-template-areas: "a a b b" "a a b b" "c c c e" "f f f e" "i i i d" "g g h h";
+}
+.tiles-center img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tiles .tile-1 {
+  grid-area: a;
+}
+.tiles .tile-2 {
+  grid-area: b;
+}
+.tiles .tile-3 {
+  grid-area: c;
+}
+.tiles .tile-4 {
+  grid-area: d;
+}
+.tiles .tile-5 {
+  grid-area: e;
+}
+.tiles .tile-6 {
+  grid-area: f;
+}
+.tiles .tile-7 {
+  grid-area: g;
+}
+.tiles .tile-8 {
+  grid-area: h;
+}
+.tiles .tile-9 {
+  grid-area: i;
+}
 
 /*# sourceMappingURL=styles_58.css.map */
