@@ -5,7 +5,6 @@ const navBtn = document.querySelector('#nav-btn');
 const closeBtn = document.querySelector('#close-btn');
 const sidebar = document.querySelector('#sidebar');
 
-date.innerHTML = new Date().getFullYear();
 
 console.log('navBtn', navBtn);
 console.log('closeBtn', closeBtn);
@@ -29,3 +28,4 @@ window.addEventListener('scroll', function () {
 });
 // set year
 
+date.innerHTML = new Date().getFullYear();
